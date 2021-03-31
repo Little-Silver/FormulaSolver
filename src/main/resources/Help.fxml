@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HelpController">
+   <children>
+      <TableView fx:id="tvOperationDescription" editable="true" layoutX="109.0" layoutY="90.0" prefHeight="200.0" prefWidth="400.0" AnchorPane.bottomAnchor="110.0">
+        <columns>
+          <TableColumn fx:id="clmOperation" prefWidth="88.0" text="Operation" />
+          <TableColumn fx:id="clmDescription" prefWidth="191.0" text="Beschreibung" />
+            <TableColumn fx:id="clmExample" prefWidth="107.0" text="Beispiel" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

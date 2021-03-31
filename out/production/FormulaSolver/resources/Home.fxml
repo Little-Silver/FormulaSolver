@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="CENTER" hgap="10" onKeyReleased="#keyReleasedF1" prefHeight="265.0" prefWidth="424.0" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <HBox prefHeight="25.0" prefWidth="370.0" GridPane.rowIndex="0">
+         <children>
+            <TextField fx:id="tfFormLeft" text="x" />
+            <Label fx:id="lblEquals" ellipsisString="=" text="=" />
+            <TextField fx:id="tfFormRight" prefHeight="25.0" prefWidth="214.0" text="4 + 3" />
+         </children>
+      </HBox>
+      <Separator prefWidth="200.0" GridPane.rowIndex="2" />
+      <Button fx:id="btCalculate" mnemonicParsing="false" onMouseClicked="#onBtCalculateClick" text="Calculate" GridPane.rowIndex="3" GridPane.halignment="RIGHT"/>
+      <Label fx:id="lblFormulaResolved" GridPane.rowIndex="4" />
+      <Separator layoutX="32.0" layoutY="165.0" prefWidth="200.0" GridPane.rowIndex="5" />
+      <ListView fx:id="lvHistory" prefHeight="89.0" prefWidth="370.0" GridPane.rowIndex="6" />
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</GridPane>
