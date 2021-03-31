@@ -1,7 +1,11 @@
 package logic;
 
 import logic.exceptions.ImproperParenthesesException;
-import logic.token.*;
+import logic.token.ArgumentSeparator;
+import logic.token.LeftParenthesis;
+import logic.token.Operator;
+import logic.token.RightParenthesis;
+import logic.token.Token;
 import logic.token.operands.Real;
 import logic.token.operands.Variable;
 

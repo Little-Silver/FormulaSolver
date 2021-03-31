@@ -22,6 +22,9 @@ import model.FormulaModel;
 
 import java.io.IOException;
 
+/**
+ * @author Pascal Isliker
+ */
 public class MainController
 {
 

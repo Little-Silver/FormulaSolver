@@ -7,6 +7,10 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import model.OperationHelpEntry;
 
 import java.util.List;
+
+/**
+ * @author Pascal Isliker
+ */
 public class HelpController
 {
     public TableView<OperationHelpEntry> tvOperationDescription = new TableView<>();

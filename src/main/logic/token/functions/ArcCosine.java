@@ -7,8 +7,7 @@ import logic.token.Operator;
 /**
  * Wrapper for the Cosine function (cos).
  *
- * @author Subhomoy Haldar
- * @version 2017.04.20
+ * @author Pascal Isliker
  */
 public class ArcCosine extends Operator {
     public static final ArcCosine INSTANCE = new ArcCosine();

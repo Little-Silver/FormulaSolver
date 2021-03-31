@@ -7,8 +7,7 @@ import logic.token.Operator;
 /**
  * Wrapper for the Tangent function (atan).
  *
- * @author Subhomoy Haldar
- * @version 2017.04.20
+ * @author Pascal Isliker
  */
 public class ArcTangent extends Operator {
     public static final ArcTangent INSTANCE = new ArcTangent();

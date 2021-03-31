@@ -7,8 +7,7 @@ import logic.token.Operator;
 /**
  * Wrapper for the Sine function (sin).
  *
- * @author Subhomoy Haldar
- * @version 2017.04.20
+ * @author Pascal Isliker
  */
 public class ArcSine extends Operator {
     public static final ArcSine INSTANCE = new ArcSine();

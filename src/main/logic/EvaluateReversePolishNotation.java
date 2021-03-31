@@ -9,6 +9,7 @@ import java.util.Stack;
  * Some examples:
  * ["2", "1", "+", "3", "*"] -> ((2 + 1) * 3) -> 9
  * ["4", "13", "5", "/", "+"] -> (4 + (13 / 5)) -> 6
+ * @see <a href="https://gist.github.com/yanghua/10101398">credits</a>
  */
 public class EvaluateReversePolishNotation {
 

@@ -7,6 +7,10 @@ import logic.token.operations.Multiplication;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+/**
+ * @author Pascal Isliker
+ */
 public class FormulaModel
 {
     private final String formLeftOriginal;

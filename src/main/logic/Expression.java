@@ -15,17 +15,13 @@ import java.util.List;
 import java.util.regex.Pattern;
 
 /**
- * @author Subhomoy Haldar
- * @version 2017.04.21
+ * @author Pascal Isliker
  */
 public class Expression
 {
-    private List<Token> tokensLeft  = new ArrayList<>();
-    private List<Token> tokensRight  = new ArrayList<>();
-
     private       FormulaModel dissolvedExpression;
 
-    private FormulaModel expression;
+    private final FormulaModel expression;
 
     public Expression(final FormulaModel expression) throws ExpressionConverter.ConversionException, ImproperParenthesesException, ExpressionTokenizer.UnrecognizedCharacterException, ExpressionTokenizer.UnrecognizedOperatorException
     {
